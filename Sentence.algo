@@ -1,0 +1,51 @@
+ALGORITHM sentence
+VAR
+    chaine:STRING;
+    cont:INTEGER:=0;
+    word:INTEGER:=1;
+    vowel:=INTEGER:=0;
+    i:=INTEGER;
+BEGIN
+    Read(chaine);
+    
+    FOR i FROM 0 TO chaine.length STEP 1  DO
+       
+        IF (chaine[i] != '')
+             THEN
+            cont:=cont + 1
+       
+        END_IF
+       
+        Write("this is the lenght of chaine", cont)
+        } 
+        END_FOR
+    
+    
+    
+    FOR i FROM 0 TO chaien[i] STEP 0  DO
+    
+    IF (chaine[i]='') THEN
+        word:=word + 1 ;
+
+    END_IF
+       
+        Write("this is the numbers of words", word)
+    
+    END_FOR
+    
+    
+    
+    
+    
+    FOR i FROM 0 TO chaine.length STEP 1  DO
+        
+        IF (chaine[i]:= 'A'or'a', 'E'or'e','I'or'i','O'or'o','U'or'u') THEN
+            vowel:=vowel+1;
+        
+        END_IF
+       
+        Write("this is the number of vowel", vowel);
+   
+    END_FOR    
+    
+END
